@@ -3,12 +3,23 @@
   "version": "0.1.0",
   "description": "This lets you scroll strings around",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Euro7Cent/scroller.git"
+  },
   "keywords": [
-    "scroll"
+    "scroller"
   ],
   "author": "1euro7cent (mrballou#9055)",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1Euro7Cent/scroller/issues"
+  },
+  "homepage": "https://github.com/1Euro7Cent/scroller#readme"
 }
