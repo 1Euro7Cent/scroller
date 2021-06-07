@@ -16,3 +16,6 @@ setInterval(() => {
     console.log(scrll.scrolled) // or get the string here
 }, 800);
 ```
+The output should look like this
+
+![image](https://user-images.githubusercontent.com/67194495/121060645-38c64480-c7c3-11eb-9e69-45f689f596cf.png)
