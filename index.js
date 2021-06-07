@@ -6,6 +6,7 @@ module.exports = class Scroller {
         this.scrolled = ''
     }
     scroll(positions) {
+        if (typeof positions === 'undefined') positions = 1
         var newPos = this.pos + positions
         this.pos = newPos
         var output = makeScroll(this.text, this.letters, newPos)

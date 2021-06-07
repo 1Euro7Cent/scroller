@@ -1,11 +1,11 @@
 
 # Installation
 ```
-npm i scroller
+npm i scroller_string
 ```
 # Example code
 ```js
-const { Scroller } = require('scroller')
+const { Scroller } = require('scroller_string')
 
 // The first argument is the string that will be scrolled
 // The second argument is the amount of letters on one print process

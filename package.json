@@ -1,5 +1,5 @@
 {
-  "name": "scroller",
+  "name": "scroller_string",
   "version": "0.1.0",
   "description": "This lets you scroll strings around",
   "main": "index.js",
