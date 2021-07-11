@@ -1,9 +1,11 @@
 module.exports = class Scroller {
-    constructor(text, letters) {
-        this.text = addSpaces(text, letters)
+    constructor(text, letters, ignore_spaces) {
+        if (ignore_spaces) this.text = addSpaces(text, letters)
+        else this.text = text
         this.letters = letters + 1
         this.pos = -1
         this.scrolled = ''
+        this.ignore_spaces = ignore_spaces
     }
     scroll(positions) {
         if (typeof positions === 'undefined') positions = 1
